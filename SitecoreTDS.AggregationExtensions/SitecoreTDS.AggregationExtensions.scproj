@@ -37,9 +37,10 @@
     <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
     <PackageAuthor>DMO </PackageAuthor>
     <PackagePublisher>Sitecore Product Strategy</PackagePublisher>
-    <PackageReadme>
-    </PackageReadme>
-    <PackageVersion>R0.10 RC1</PackageVersion>
+    <PackageReadme>Installation Instructions
+
+</PackageReadme>
+    <PackageVersion>0.1 RC1</PackageVersion>
     <SitecoreAssemblyPath>..\..\SitecorePrivateAssemblies\Sitecore80_R141212</SitecoreAssemblyPath>
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\SitecoreTDS.AggregationExtensions_Debug.xml</ValidationSettingsFilePath>
