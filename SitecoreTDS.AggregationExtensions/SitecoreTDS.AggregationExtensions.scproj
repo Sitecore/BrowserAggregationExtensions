@@ -1,0 +1,78 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b2019c13-d7d6-4a64-8d62-716a0af1f620</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SourceWebPhysicalPath>..\Sitecore.AggregationExtensions</SourceWebPhysicalPath>
+    <SourceWebProject>{1fafbe26-ed86-4e60-bf6b-ae9a24ed7f5d}|Sitecore.AggregationExtensions\Sitecore.AggregationExtensions.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Sitecore.AggregationExtensions.csproj</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>SitecoreTDS.AggregationExtensions</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>SitecoreTDS.AggregationExtensions</AssemblyName>
+    <Name>SitecoreTDS.AggregationExtensions</Name>
+    <RootNamespace>SitecoreTDS.AggregationExtensions</RootNamespace>
+    <EnableCodeGeneration>false</EnableCodeGeneration>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Include</AssemblyStatus>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <SitecoreWebUrl>
+    </SitecoreWebUrl>
+    <InstallSitecoreConnector>False</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <PackageName>SitecoreTDS.AggregationExtensions</PackageName>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <PackageAuthor>DMO </PackageAuthor>
+    <PackagePublisher>Sitecore Product Strategy</PackagePublisher>
+    <PackageReadme>
+    </PackageReadme>
+    <PackageVersion>R0.10 RC1</PackageVersion>
+    <SitecoreAssemblyPath>..\..\SitecorePrivateAssemblies\Sitecore80_R141212</SitecoreAssemblyPath>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\SitecoreTDS.AggregationExtensions_Debug.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sitecore.AggregationExtensions\Sitecore.AggregationExtensions.csproj">
+      <Project>{1fafbe26-ed86-4e60-bf6b-ae9a24ed7f5d}</Project>
+      <Name>Sitecore.AggregationExtensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.AggregationExtensions.%2a" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundledProject Include="..\TDS.CoreDb\TDS.CoreDb.scproj">
+      <ProjectId>{f6c6a846-267d-4103-8f9f-024722dfc226}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\TDS.MasterDb\TDS.MasterDb.scproj">
+      <ProjectId>{582ff6cc-b0c4-4433-8ddd-c99c26bace21}</ProjectId>
+    </BundledProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
+</Project>

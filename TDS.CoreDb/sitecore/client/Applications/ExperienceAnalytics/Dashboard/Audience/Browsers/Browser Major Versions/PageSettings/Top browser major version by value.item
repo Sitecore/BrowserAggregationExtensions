@@ -1,0 +1,121 @@
+----item----
+version: 1
+id: {8D6B151B-6CBD-4BEA-9425-C31EADA7EB1F}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Audience/Browsers/Browser Major Versions/PageSettings/Top browser major version by value
+parent: {C17F35E2-BFB5-4CA6-9C59-F4BAE07B1353}
+name: Top browser major version by value
+master: {00000000-0000-0000-0000-000000000000}
+template: {DAD532FA-6524-45CB-A57C-848CC34EB238}
+templatekey: ExperienceAnalyticsLineChart Parameters
+
+----field----
+field: {6D0C0AB0-BC40-4BD0-8ACB-16612A180F14}
+name: IsVisible
+key: isvisible
+content-length: 1
+
+1
+----field----
+field: {7A078F89-9956-4F04-9006-EE085053DDF4}
+name: Metrics
+key: metrics
+content-length: 38
+
+{A7E070C2-8656-4E22-AE7C-213F225DC754}
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{5A5DAC6C-BCE7-4FB0-8F52-21B09ECE6B5B}
+----field----
+field: {7489900F-C46F-4D41-B704-1F96694A7190}
+name: KeysCount
+key: keyscount
+content-length: 1
+
+8
+----field----
+field: {13CF962B-9899-4421-8206-8BDC3BF117D1}
+name: KeysSortByMetric
+key: keyssortbymetric
+content-length: 38
+
+{A7E070C2-8656-4E22-AE7C-213F225DC754}
+----field----
+field: {5D6BC769-813B-4D41-8A88-73DCA65D66B5}
+name: KeysSortDirection
+key: keyssortdirection
+content-length: 38
+
+{D54D6C57-A761-412F-BCE8-A2B181B443FF}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----version----
+language: en
+version: 1
+revision: 7d784dd0-a666-48ac-83c6-ae34e5c59128
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 35
+
+Top browser major versions by value
+----field----
+field: {8C985BE6-4752-4134-BA85-F52055C8012E}
+name: Title
+key: title
+content-length: 35
+
+Top browser major versions by value
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141006T093145Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d784dd0-a666-48ac-83c6-ae34e5c59128
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150127T183700:635579806209678695Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

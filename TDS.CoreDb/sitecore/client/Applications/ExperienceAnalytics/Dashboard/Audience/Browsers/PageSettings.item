@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {96E330A9-D8A0-4B6D-8FDF-B19E50F38673}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Audience/Browsers/PageSettings
+parent: {82793981-53E0-4A8B-9A7A-A3865C9748D1}
+name: PageSettings
+master: {00000000-0000-0000-0000-000000000000}
+template: {E35EAA2D-EDEA-431C-A9E6-488272B53782}
+templatekey: PageSettings
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 14cb5b2b-12c3-41cf-8ed9-4cacb4fe6dff
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140903T093928Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+14cb5b2b-12c3-41cf-8ed9-4cacb4fe6dff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140903T093928:635453339688846133Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

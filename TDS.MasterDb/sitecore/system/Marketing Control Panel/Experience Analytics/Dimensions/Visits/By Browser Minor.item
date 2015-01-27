@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {108AD4BE-D5CA-4611-A020-1F643F594A87}
+database: master
+path: /sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions/Visits/By Browser Minor
+parent: {59B831DB-114C-47A7-AE5E-787D092C660F}
+name: By Browser Minor
+master: {6A697493-A755-4A7B-9435-0F2076A1EE23}
+template: {82969FF1-15FA-4CDC-8CA4-5204A6ADD761}
+templatekey: Dimension
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: c6c243d3-666b-4742-b877-51564623744d
+
+----field----
+field: {A6302F86-E82B-4BDA-AB63-639395E1B614}
+name: Name
+key: name
+content-length: 16
+
+By Browser Minor
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150127T091341Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c6c243d3-666b-4742-b877-51564623744d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150127T091341:635579468219642191Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
