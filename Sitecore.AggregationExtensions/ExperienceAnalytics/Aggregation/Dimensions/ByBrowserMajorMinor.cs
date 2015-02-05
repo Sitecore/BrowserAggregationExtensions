@@ -1,11 +1,12 @@
 ﻿using Sitecore.Analytics.Aggregation.Data.Model;
+using Sitecore.ExperienceAnalytics.Aggregation.Data.Schema;
 using Sitecore.ExperienceAnalytics.Aggregation.Dimensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sitecore.AggregationExtensions.Aggregation.Dimensions
+namespace Sitecore.AggregationExtensions.ExperienceAnalytics.Aggregation.Dimensions
 {
     public class ByBrowserMajorMinor : VisitDimensionBase
     {
@@ -22,7 +23,7 @@ namespace Sitecore.AggregationExtensions.Aggregation.Dimensions
 
         protected override string GetKey(IVisitAggregationContext context)
         {
-            string browserMajor = "[BLANK]", browserMinor = "[BLANK]";
+            string browserMajor = "[UNKNOWN]", browserMinor = "[UNKNOWN]";
 
             if (context.Visit.Browser != null && !string.IsNullOrEmpty(context.Visit.Browser.BrowserMajorName))
             {
@@ -36,7 +37,7 @@ namespace Sitecore.AggregationExtensions.Aggregation.Dimensions
             return StringExtensions.ToCanonical(string.Concat(browserMajor, "-", browserMinor));
         }
 
-        protected override ExperienceAnalytics.Aggregation.Data.Schema.SegmentMetricsValue GetValue(IVisitAggregationContext context)
+        protected override SegmentMetricsValue GetValue(IVisitAggregationContext context)
         {
             return base.GetValue(context);
         }

@@ -92,20 +92,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aggregation\Dimensions\ByBrowserMajor.cs" />
-    <Compile Include="Aggregation\Dimensions\ByBrowserMajorMinor.cs" />
-    <Compile Include="Aggregation\Dimensions\ByBrowserVersion.cs" />
-    <Compile Include="Aggregation\Dimensions\StringExtensions.cs" />
+    <Compile Include="CoreAggregation\Model\Browser\BrowserMajor.cs" />
+    <Compile Include="CoreAggregation\Model\Browser\BrowserMinor.cs" />
+    <Compile Include="CoreAggregation\Model\Browser\Browsers.cs" />
+    <Compile Include="CoreAggregation\Pipelines\Browser\BrowsersProcessor.cs" />
+    <Compile Include="ExperienceAnalytics\Aggregation\Dimensions\ByBrowserMajor.cs" />
+    <Compile Include="ExperienceAnalytics\Aggregation\Dimensions\ByBrowserMajorMinor.cs" />
+    <Compile Include="ExperienceAnalytics\Aggregation\Dimensions\ByBrowserVersion.cs" />
+    <Compile Include="ExperienceAnalytics\Aggregation\Dimensions\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\ExperienceAnalytics\Sitecore.AggregationExtensions.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Sql\InsertBrowserSegments.sql" />
+    <Content Include="CoreAggregation\SQL\Browser\Create_BrowserMajor.sql" />
+    <Content Include="CoreAggregation\SQL\Browser\Create_BrowserMinor.sql" />
+    <Content Include="CoreAggregation\SQL\Browser\Create_Fact_Browsers.sql" />
+    <Content Include="CoreAggregation\SQL\Browser\Ensure_BrowserMajor.sql" />
+    <Content Include="CoreAggregation\SQL\Browser\Ensure_BrowserMinor.sql" />
+    <Content Include="CoreAggregation\SQL\Browser\Report_Fact_Browsers.sql" />
+    <Content Include="CoreAggregation\SQL\Browser\Report_Fact_BrowsersTotals.sql" />
+    <Content Include="ExperienceAnalytics\Sql\InsertBrowserSegments.sql" />
     <EmbeddedResource Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\CoreAggregation\Sitecore.AggregationExtensions.CoreAggregation.config" />
     <None Include="Properties\PublishProfiles\vm-web-01 - 8080.pubxml" />
   </ItemGroup>
   <ItemGroup />

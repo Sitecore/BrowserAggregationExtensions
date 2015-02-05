@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sitecore.AggregationExtensions.Aggregation.Dimensions
+namespace Sitecore.AggregationExtensions.ExperienceAnalytics.Aggregation.Dimensions
 {
     public static class StringExtensions
     {
