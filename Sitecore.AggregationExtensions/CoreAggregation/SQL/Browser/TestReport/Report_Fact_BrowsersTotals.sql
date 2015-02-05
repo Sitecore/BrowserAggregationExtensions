@@ -2,7 +2,7 @@
 DECLARE @StartDate datetime;
 DECLARE @EndDate datetime;
 
-SET @SiteName = 'symna'
+SET @SiteName = 'website'
 SET @StartDate = '2014-09-01 00:00:00'
 SET @EndDate = '2014-09-30 23:59:59'
 
@@ -24,7 +24,7 @@ INNER JOIN [SiteNames] ON [Fact_Browsers].[SiteNameId] = [SiteNames].[SiteNameId
 
 WHERE
     @SiteName = @SiteName
-    AND [Date] BETWEEN @StartDate AND @EndDate
+--    AND [Date] BETWEEN @StartDate AND @EndDate
 
 
 group by 

@@ -106,14 +106,14 @@
     <Content Include="App_Config\Include\ExperienceAnalytics\Sitecore.AggregationExtensions.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="CoreAggregation\SQL\Browser\Create_BrowserMajor.sql" />
-    <Content Include="CoreAggregation\SQL\Browser\Create_BrowserMinor.sql" />
-    <Content Include="CoreAggregation\SQL\Browser\Create_Fact_Browsers.sql" />
-    <Content Include="CoreAggregation\SQL\Browser\Ensure_BrowserMajor.sql" />
-    <Content Include="CoreAggregation\SQL\Browser\Ensure_BrowserMinor.sql" />
-    <Content Include="CoreAggregation\SQL\Browser\Report_Fact_Browsers.sql" />
-    <Content Include="CoreAggregation\SQL\Browser\Report_Fact_BrowsersTotals.sql" />
-    <Content Include="ExperienceAnalytics\Sql\InsertBrowserSegments.sql" />
+    <None Include="CoreAggregation\SQL\Browser\01_Create_BrowserMajor.sql" />
+    <None Include="CoreAggregation\SQL\Browser\02_Create_BrowserMinor.sql" />
+    <None Include="CoreAggregation\SQL\Browser\03_Create_Fact_Browsers.sql" />
+    <None Include="CoreAggregation\SQL\Browser\04_Ensure_BrowserMajor.sql" />
+    <None Include="CoreAggregation\SQL\Browser\05_Ensure_BrowserMinor.sql" />
+    <None Include="CoreAggregation\SQL\Browser\TestReport\Report_Fact_Browsers.sql" />
+    <None Include="CoreAggregation\SQL\Browser\TestReport\Report_Fact_BrowsersTotals.sql" />
+    <None Include="ExperienceAnalytics\Sql\InsertBrowserSegments.sql" />
     <EmbeddedResource Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
